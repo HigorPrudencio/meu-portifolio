@@ -9,9 +9,9 @@ body {
 
 .box2 {
     font-size: 20px;
-   
+
     font-family: 'Poppins', sans-serif;
-  
+
     margin-top: -150px;
     width: 425px;
     padding-top: 200px;
@@ -21,27 +21,35 @@ body {
     font-size: 18px;
     font-family: cursive;
 }
-.teste{
+
+.teste {
     height: 100vh;
     width: 100vw;
     position: fixed;
     top: 0;
     left: 0;
-    
-     z-index: -1; 
-}
-.box3{
-    background-color: #3498db; 
-  color: #fff; 
-  border: none; 
-  padding: 10px 20px;
-  font-size: 16px; 
-  border-radius: 5px;
 
- 
+    z-index: -1;
 }
-.img1{
-    width: 200px; 
+
+.botao {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+
+
+}
+
+.img1 {
+    width: 200px;
     height: 150px;
-    margin-right: 10px;
+    margin:  0px 10px ;
+}
+
+.box3{
+display: flex;
+align-items: flex-end;
 }
