@@ -51,6 +51,8 @@ function App() {
             src="https://assets-v2.lottiefiles.com/a/b9f9fe3e-1163-11ee-97ce-97272df55722/fYQwaaCE32.json" loop autoplay speed={1} /></a>
         </div>
       </div>
+
+     
     </>
 
   )
