@@ -82,3 +82,7 @@ body {
     justify-content: center;
     margin: 10px;
 }
+
+@media (max-width: 768px) {
+    /* Estilos para telas menores que 768px de largura (smartphones) */
+}
