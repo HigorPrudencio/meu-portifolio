@@ -13,24 +13,25 @@ function App() {
 
   return (
     <>
+
       <div className='box1'>
         <Player className='animacao'
           src="https://assets-v2.lottiefiles.com/a/91751022-1166-11ee-9c74-138fa1e7d83d/eCgQRor9Zt.json" loop autoplay speed={0.2}
         />
       </div>
-
-      <div className='box2'>
-        <h2> Resumo sobre mim </h2>
-        <p className='text1'>
-          Gosto muito de games e sou extremamente focado nas coisas que me interessam.
-        </p>
-        <p className='text1'>
-          Amo esportes e videogames. Eles são uma grande parte da minha vida e me proporcionam muita diversão e entretenimento.
-        </p>
-        <p className='text1'>
-          Sempre busco me aprimorar e superar desafios tanto nos jogos quanto nos esportes, e isso me motiva a continuar aprendendo e me divertindo com o que amo.
-        </p>
-
+      
+        <div className='box2'>
+          <h2> Resumo sobre mim </h2>
+          <p className='text1'>
+            Gosto muito de games e sou extremamente focado nas coisas que me interessam.
+          </p>
+          <p className='text1'>
+            Amo esportes e videogames. Eles são uma grande parte da minha vida e me proporcionam muita diversão e entretenimento.
+          </p>
+          <p className='text1'>
+            Sempre busco me aprimorar e superar desafios tanto nos jogos quanto nos esportes, e isso me motiva a continuar aprendendo e me divertindo com o que amo.
+          </p>
+        
       </div>
 
       <div className='box3'>
@@ -52,7 +53,7 @@ function App() {
         </div>
       </div>
 
-     
+
     </>
 
   )
